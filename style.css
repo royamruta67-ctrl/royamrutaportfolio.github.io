@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: 0.4s;
+}
+
+/* LIGHT MODE */
+body.light {
+  background: linear-gradient(to right, #f5f0e8, #ffffff);
+  color: #222;
+}
+
+/* DARK MODE */
+body.dark {
+  background: linear-gradient(to right, #0f0f1a, #1e1e2e);
+  color: #fff;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  background: #c9a89a;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #c9a89a;
+  font-weight: bold;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.skills span {
+  display: inline-block;
+  background: #c9a89a;
+  color: white;
+  padding: 10px 15px;
+  margin: 6px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+/* TOGGLE */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
